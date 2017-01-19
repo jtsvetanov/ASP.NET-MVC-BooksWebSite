@@ -12,7 +12,9 @@ Description
 
     The structure of the project is as follows: 
    
-    Booksite/src/BooksiteThis project has 4 folders.
+    Booksite/src/Booksite
+
+    This project has 4 folders.
  
     The database is written to a SQL Server database
 
