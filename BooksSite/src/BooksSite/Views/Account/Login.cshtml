@@ -13,7 +13,7 @@
     <div class="col-md-8">
         <section>
             <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
-                <h4>Use a local account to log in.</h4>
+                <h4>Please enter your credentials to log in.</h4>
                 <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
@@ -56,7 +56,7 @@
     </div>
     <div class="col-md-4">
         <section>
-            <h4>Use another service to log in.</h4>
+            <h4>Use another service to log in. (Under Construction)</h4>
             <hr />
             @{
                 var loginProviders = SignInManager.GetExternalAuthenticationSchemes().ToList();
@@ -64,8 +64,7 @@
                 {
                     <div>
                         <p>
-                            There are no external authentication services configured. See <a href="http://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
+                            At this point we don't have any external authentication services configured.
                         </p>
                     </div>
                 }

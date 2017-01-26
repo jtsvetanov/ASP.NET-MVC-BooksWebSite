@@ -12,6 +12,7 @@
                 <a asp-controller="Manage" asp-action="Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
             </li>
             <li>
+                 <a asp-area="" asp-controller="Books" asp-action="Index" class="navbar-brand">List All Books</a> 
                 <button type="submit" class="btn btn-link navbar-btn navbar-link">Log off</button>
             </li>
         </ul>
